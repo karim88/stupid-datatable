@@ -9,12 +9,17 @@ class StupidDatatableServiceProvider extends ServiceProvider
 
     public function boot()
     {
-
+        $this->publishes([
+            __DIR__.'/config/config.php' => config_path('stupid-datatable.php'),
+        ]);
     }
 
     public function register()
     {
-
+        $this->app->singleton('docusign', function ($app)
+        {
+            return new Docusign($app->config->get('stupid-datatable', array()));
+        });
 
         $this->app->booting(function()
         {

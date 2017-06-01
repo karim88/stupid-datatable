@@ -12,7 +12,8 @@ class StupidDatatable
 
     public function table($value='')
     {
-        # code..
+        $html = "<div>coco $value</div>;
+        return HtmlString($html);
     }
 
 }
