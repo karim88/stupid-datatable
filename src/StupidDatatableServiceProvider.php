@@ -18,7 +18,7 @@ class StupidDatatableServiceProvider extends ServiceProvider
     {
         $this->app->singleton('stupid-datatable', function ($app)
         {
-            return new DocusStupidDatatable($app->config->get('stupid-datatable', array()));
+            return new StupidDatatable($app->config->get('stupid-datatable', array()));
         });
 
         $this->app->booting(function()
