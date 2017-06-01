@@ -10,4 +10,9 @@ class StupidDatatable
 
     }
 
+    public function table($value='')
+    {
+        # code..
+    }
+
 }
