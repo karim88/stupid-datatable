@@ -1,4 +1,4 @@
-<?php namespace Karim88\Docusign\Facades;
+<?php namespace Karim88\StupidDatatable\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
