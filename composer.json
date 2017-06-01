@@ -1,0 +1,21 @@
+{
+    "name": "karim88/stupid-datatable",
+    "description": "Yet a other Datadable",
+    "type": "library",
+    "require": {
+        "php": ">=5.6",
+        "laravel/framework": "5.*"
+    },
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Karim88\\StupidDatatable\\": "src/"
+        }
+},
+    "authors": [
+        {
+            "name": "Karim Oulad Chalha",
+            "email": "herr.linux88@gmail.com"
+        }
+    ]
+}
