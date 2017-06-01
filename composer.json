@@ -5,7 +5,7 @@
     "require": {
         "php": ">=5.6",
         "laravel/framework": "5.*",
-        "illuminate/string": "5.*"
+        "illuminate/support": "5.*"
     },
     "license": "GPL",
     "autoload": {
