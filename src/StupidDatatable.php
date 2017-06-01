@@ -5,7 +5,7 @@ use Illuminate\Support\HtmlString;
 class StupidDatatable
 {
     
-    function __construct()
+    function __construct($arr)
     {
 
     }
