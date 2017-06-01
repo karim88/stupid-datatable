@@ -16,7 +16,7 @@ class StupidDatatableServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->singleton('docusign', function ($app)
+        $this->app->singleton('stupid-datatable', function ($app)
         {
             return new Docusign($app->config->get('stupid-datatable', array()));
         });
