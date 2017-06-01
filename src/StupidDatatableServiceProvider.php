@@ -23,7 +23,7 @@ class StupidDatatableServiceProvider extends ServiceProvider
 
         $this->app->booting(function()
         {
-            AliasLoader::getInstance()->alias('StupidDatatable', 'Karim88\StupidDatatable\Facades\StupidDatatable');
+            AliasLoader::getInstance()->alias('Datatable', 'Karim88\StupidDatatable\Facades\StupidDatatable');
         });
     }
 
